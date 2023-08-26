@@ -1,0 +1,110 @@
+body {
+    background-image: url("Images/pexels-johannes-plenio-1118873.jpg");
+    background-size: 1520px 900px; 
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Work Sans', 'sans-serif';
+    color: rgb(255, 255, 255);
+    width:100%;
+    height: 100vh;
+}
+.header{
+    text-align: center;
+    
+    
+}
+input[type="text"]{
+    width:800px;
+    height:50px;
+    border-radius: 35px;
+    background:transparent;
+    border-width: 2px;
+    border-color: rgb(255, 255, 255);
+}
+input[type="text"]::placeholder{
+    color: aliceblue;
+    padding: 30px;
+}
+
+.material-symbols-outlined {
+    color: rgb(255, 253, 251);
+    vertical-align: middle;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+#searchbtn{
+    border: none;
+    vertical-align: middle;
+    background: transparent;
+}
+#searchbtn :hover{
+   border: 1px solid rgb(0, 0, 0);
+   border-radius: 30px;
+}
+.weatherToday{
+    width:80%;
+    height:50%;
+    margin-top:30px;
+    margin-left:20%;
+    
+    
+}
+.weatherDetails{
+   display: flex;
+  
+}
+.weatherTemp{
+    padding-top:40px;
+    padding-left: 50%;
+    font-size:50px;
+
+}
+.weatherTemp .material-symbols-outlined {
+    font-size: 55px;
+}
+.city{
+    font-size:35px;
+}
+.day{
+    font-size: 25px;
+}
+.current{
+    font-size: 15px;
+}
+.value{
+    padding:5px;
+}
+.weatherForecast{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin:10px;
+    
+}
+.forecastitem {
+    background-color: rgba(255, 255, 255, 0.1); 
+    border-radius: 10px; 
+    padding: 10px; 
+    margin: 10px; 
+    width: calc(20% - 20px); 
+    box-sizing: border-box; 
+    text-align: center; 
+    color: white; 
+    font-size:large;
+}
+.weatherForecastDay {
+    font-size: 24px;
+    margin: 5px 0;
+}
+.weatherForecastTemp {
+    font-size: 20px;
+    
+}
+.forecastitem:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: background-color 0.2s ease-in-out;
+}
